@@ -37,11 +37,7 @@ p{
 .icon{
     width: 20px;
 }
-.mountain{
-    width : 800px;
-    position : relative;
-    right : 100px;
-}
+
 .hello{
     font-size : 2em;
     font-family: 'Sacramento', cursive; 
@@ -67,20 +63,19 @@ hr{
 .top-cloud{
     position : relative;
     padding-top: 100px;
-    left: 300px;
+    left: 30% ;
 } 
-/* .top-cloud{
-    position: absolute;
-    right : 300px;
-    top:50px; 
-} */ 
 .bottom-cloud{
     position : relative; 
-    bottom : 400px;     
-    left : 50px;
+    /* bottom : 400px;      */
+    left : -30%;
 }  
+.mountain{
+    width : 800px;
+    position : relative; 
+}
 .mypicture{
-    border-radius: 50%;
+    border-radius: 50%; 
 }
 .bottom{
     width:100px; 
@@ -89,6 +84,9 @@ hr{
 }
 .top-container{
     background-color: #e1f7f7;
+}
+.middle-container{
+    margin: 100px auto 100px auto;
 }
 .skill-row{
     width : 50%;
@@ -148,9 +146,6 @@ hr{
     clear: right;
     text-align : right;
 } */
-.middle-container{
-    margin: 100px auto 100px auto;
-}
 .bottom-container{
     padding : 50px 0 20px; 
     background-color: #66BFBF;
